@@ -9,7 +9,7 @@ router.post('/', oportunidadServiciosController.create);
 // Retrieve all Oportunidad_Servicios
 router.get('/', oportunidadServiciosController.findAll);
 
-router.get('/oportunidad_servicios/:id', oportunidadServiciosController.findAll);
+router.get('/oportunidad_servicios/:id', oportunidadServiciosController.findByIdOportunidad);
 // Update a Oportunidad_Servicios with id
 router.put('/:id', oportunidadServiciosController.update);
 
